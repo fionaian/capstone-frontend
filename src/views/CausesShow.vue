@@ -18,7 +18,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/causes/" + this.$route.params.id).then(response => {
+    axios.get("/api/causes/" + this.$route.params.id).then(response => {
       this.cause = response.data;
     });
   },

@@ -27,7 +27,6 @@ export default {
   data: function() {
     return {
       email: "",
-
       password: "",
       errors: []
     };

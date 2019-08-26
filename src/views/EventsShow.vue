@@ -14,7 +14,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/events/" + this.$route.params.id).then(response => {
+    axios.get("/api/events/" + this.$route.params.id).then(response => {
       this.event = response.data;
     });
   },

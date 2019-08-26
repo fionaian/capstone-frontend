@@ -18,7 +18,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/causes").then(response => {
+    axios.get("/api/causes").then(response => {
       this.causes = response.data;
     });
   },
