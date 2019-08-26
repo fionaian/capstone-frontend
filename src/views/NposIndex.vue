@@ -19,7 +19,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/npos").then(response => {
+    axios.get("/api/npos").then(response => {
       this.npos = response.data;
       console.log(this.npos);
     });

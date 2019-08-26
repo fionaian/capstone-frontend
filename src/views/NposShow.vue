@@ -14,7 +14,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/npos/" + this.$route.params.id).then(response => {
+    axios.get("/api/npos/" + this.$route.params.id).then(response => {
       this.npo = response.data;
     });
   },

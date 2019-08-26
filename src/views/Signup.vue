@@ -40,6 +40,7 @@ export default {
     return {
       name: "",
       email: "",
+      phone: "",
       password: "",
       passwordConfirmation: "",
       errors: []
@@ -50,6 +51,7 @@ export default {
       var params = {
         name: this.name,
         email: this.email,
+        phone: this.phone,
         password: this.password,
         password_confirmation: this.passwordConfirmation
       };
