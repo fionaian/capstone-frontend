@@ -21,7 +21,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/api/events").then(response => {
+    axios.get("/api/all_events").then(response => {
       this.events = response.data;
       console.log(this.events);
     });
