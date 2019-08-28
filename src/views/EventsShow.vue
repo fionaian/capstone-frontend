@@ -1,10 +1,8 @@
 <template>
   <div class="container">
     <h2>{{ event.name }}</h2>
-    <div class="form-group">
-      <label>Sign Up for Event</label>
-      <input type="submit" class="btn btn-primary" />
-    </div>
+    <button v-on:click="createEvent(event)">Sign Up for Event</button>
+    <br />
     <router-link to="/events">Back to all events</router-link>
   </div>
 </template>
