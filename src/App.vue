@@ -9,6 +9,8 @@
       |
       <router-link to="/login">Login</router-link>
       |
+      <router-link to="/eventusers">Your Events</router-link>
+      |
       <router-link to="/causes">Causes</router-link>
       |
       <router-link to="/npos">NPOs</router-link>

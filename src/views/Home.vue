@@ -6,8 +6,8 @@
     </div>
     <div v-if="isLoggedIn">
       <p>Your events</p>
-      <div v-for="event in events">
-        <p>{{ event.name }}</p>
+      <div v-for="event_user in event_users">
+        <p>{{ event_user.event.name }}</p>
       </div>
     </div>
   </div>
@@ -21,14 +21,14 @@ export default {
   data: function() {
     return {
       message: "Welcome to VolunTreery!",
-      events: [],
+      event_users: [],
       isLoggedIn: true
     };
   },
   created: function() {
-    axios.get("/api/events").then(response => {
-      this.events = response.data;
-      console.log("data: ", this.events);
+    axios.get("/api/event_users").then(response => {
+      this.event_users = response.data;
+      console.log("data: ", this.event_users);
     });
   },
   methods: {}
