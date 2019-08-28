@@ -4,6 +4,9 @@
     <div v-for="npo in npos">
       <h2>{{ npo.name }}</h2>
       <h3>{{ npo.cause_id }}</h3>
+      <div v-for="cause in causes">
+        <p>{{ cause.title }}</p>
+      </div>
       <router-link v-bind:to="`/npos/${npo.id}`">More details</router-link>
     </div>
   </div>
@@ -15,7 +18,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      npos: []
+      npos: [],
+      causes: []
     };
   },
   created: function() {
