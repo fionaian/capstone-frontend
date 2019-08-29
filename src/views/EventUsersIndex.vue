@@ -1,3 +1,5 @@
+<!-- FIX DESTROY METHOD -->
+
 <template>
   <div class="container">
     <h1>Your Signed Up Events</h1>
