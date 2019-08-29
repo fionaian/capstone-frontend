@@ -1,3 +1,5 @@
+<!-- IGNORE FOR NOW -->
+
 <template>
   <div class="container">
     <h1>Your Signed Up Events</h1>
@@ -6,8 +8,6 @@
       <h3>{{ event.npo_id }}</h3>
       <h3>{{ event.start_datetime }}</h3>
       <h3>{{ event.end_datetime }}</h3>
-      <button v-on:click="destroyEvent(event)">Remove Event</button>
-      <router-link v-bind:to="`/events/${event.id}`">More details about event</router-link>
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
   created: function() {
     axios.get("/api/event_users").then(response => {
       this.events = response.data;
-      console.log(this.events);
+      console.log(this.event_users);
     });
   },
   methods: {
