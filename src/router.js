@@ -5,7 +5,6 @@ import About from "./views/About.vue";
 import Signup from "./views/Signup.vue";
 import Login from "./views/Login.vue";
 import EventUsersIndex from "./views/EventUsersIndex.vue";
-import EventUsersNew from "./views/EventUsersNew.vue";
 import CausesIndex from "./views/CausesIndex.vue";
 import CausesShow from "./views/CausesShow.vue";
 import NposIndex from "./views/NposIndex.vue";

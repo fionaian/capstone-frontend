@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <h2>{{ event.name }}</h2>
+    <ul>
+      <li class="text-danger" v-for="error in errors">{{ error }}</li>
+    </ul>
     <button v-on:click="createEventUser(event)">Sign Up for Event</button>
     <br />
     <router-link to="/events">Back to all events</router-link>
@@ -12,7 +15,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      event: {}
+      event: {},
+      errors: []
     };
   },
   created: function() {
@@ -25,10 +29,15 @@ export default {
       var params = {
         event_id: event.id
       };
-      axios.post("api/event_users", params).then(response => {
-        console.log("You signed up!", response.data);
-        this.$router.push("/eventusers");
-      });
+      axios
+        .post("api/event_users", params)
+        .then(response => {
+          console.log("You signed up!", response.data);
+          this.$router.push("/eventusers");
+        })
+        .catch(error => {
+          this.errors = error.response.data.errors;
+        });
     }
   }
 };

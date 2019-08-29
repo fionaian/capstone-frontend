@@ -8,7 +8,7 @@
       <h3>{{ event_user.event.npo_id }}</h3>
       <h3>{{ event_user.event.start_datetime }}</h3>
       <h3>{{ event_user.event.end_datetime }}</h3>
-      <button v-on:click="destroyEvent(event)">Remove Event</button>
+      <button v-on:click="destroyEvent(event_user)">Remove Event</button>
       <!-- <router-link v-bind:to="`/events/${event.id}`">More details about event</router-link> -->
     </div>
   </div>
@@ -29,8 +29,8 @@ export default {
     });
   },
   methods: {
-    destroyEvent: function(event) {
-      axios.delete("/api/event_users" + event.id).then(response => {
+    destroyEvent: function(event_user) {
+      axios.delete("/api/event_users/" + event_user.id).then(response => {
         this.$router.push("/event_users");
       });
     }
