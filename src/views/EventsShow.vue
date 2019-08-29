@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2>{{ event.name }}</h2>
-    <button v-on:click="createEvent(event)">Sign Up for Event</button>
+    <button v-on:click="createEventUser(event)">Sign Up for Event</button>
     <br />
     <router-link to="/events">Back to all events</router-link>
   </div>
@@ -20,6 +20,16 @@ export default {
       this.event = response.data;
     });
   },
-  methods: {}
+  methods: {
+    createEventUser: function(event) {
+      var params = {
+        event_id: event.id
+      };
+      axios.post("api/event_users", params).then(response => {
+        console.log("You signed up!", response.data);
+        this.$router.push("/eventusers");
+      });
+    }
+  }
 };
 </script>

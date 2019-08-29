@@ -5,6 +5,7 @@ import About from "./views/About.vue";
 import Signup from "./views/Signup.vue";
 import Login from "./views/Login.vue";
 import EventUsersIndex from "./views/EventUsersIndex.vue";
+import EventUsersNew from "./views/EventUsersNew.vue";
 import CausesIndex from "./views/CausesIndex.vue";
 import CausesShow from "./views/CausesShow.vue";
 import NposIndex from "./views/NposIndex.vue";
@@ -24,6 +25,7 @@ export default new Router({
     { path: "/signup", name: "signup", component: Signup },
     { path: "/login", name: "login", component: Login },
     { path: "/eventusers", name: "eventusers-index", component: EventUsersIndex },
+    { path: "/eventusers" },
     { path: "/causes", name: "causes-index", component: CausesIndex },
     { path: "/causes/:id", name: "causes-show", component: CausesShow },
     { path: "/npos", name: "npos-index", component: NposIndex },
