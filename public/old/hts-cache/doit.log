@@ -1,0 +1,8 @@
+http://demos.themes.guide/bodeo/demo-v1.1.8/ -O bodeotheme +*demos.themes.guide/* -v
+File generated automatically on Thu, 29 Aug 2019 19:47:33, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <h2>{{ event.name }}</h2>
+    <h3>{{ event.start_datetime }}</h3>
+    <h3>{{ event.end_datetime }}</h3>
     <ul>
       <li class="text-danger" v-for="error in errors">{{ error }}</li>
     </ul>
