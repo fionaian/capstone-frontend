@@ -29,7 +29,7 @@ export default {
   data: function() {
     return {
       calendarPlugins: [dayGridPlugin],
-      events: []
+      events: [{}]
     };
   },
   created: function() {
