@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>All Events</h1>
+    <FullCalendar defaultView="dayGridMonth" :plugins="calendarPlugins" />
     <div v-for="event in events">
       <h2>{{ event.name }}</h2>
       <h3>{{ event.npo_id }}</h3>
@@ -11,12 +12,23 @@
   </div>
 </template>
 
+<style lang="scss">
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+</style>
+
 <script>
 import axios from "axios";
+import FullCalendar from "@fullcalendar/vue";
+import dayGridPlugin from "@fullcalendar/daygrid";
 
 export default {
+  components: {
+    FullCalendar // make the <FullCalendar> tag available
+  },
   data: function() {
     return {
+      calendarPlugins: [dayGridPlugin],
       events: []
     };
   },

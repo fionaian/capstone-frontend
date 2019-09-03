@@ -65,7 +65,7 @@
       </a>
       <!-- text brand or logo image goes here -->
       <a class="navbar-brand page-scroll text-uppercase wide-space link" href="/">
-        VolunTrerey
+        VolunTreery
       </a>
       <button
         class="navbar-toggler collapsed border-0"
