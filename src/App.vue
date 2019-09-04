@@ -12,44 +12,9 @@
               </a>
             </h1>
           </div>
-          <!-- <div class="col-xl-4 ml-xl-auto col-lg-4 ml-lg-auto col-md-5 ml-md-auto py-3">
-            <blockquote class="blockquote">
-              <h3 class="text-right pt-3">
-                Wow, yeaahh man
-                <br />
-                you
-                <em>are</em>
-                really
-                <br />
-                a hipster nerd
-              </h3>
-              <br />
-              <h6 class="text-right"><a href="#" class="text-muted link small">We made it easy</a></h6>
-            </blockquote>
-          </div> -->
         </div>
       </div>
     </div>
-    <!-- <header id="first" class="bg-image-jungle bg-fixed bg-cover">
-      <div class="header-content container py-3">
-        <div class="row vcenter">
-          <div class="col-xl-5 col-lg-4 col-md-3"></div>
-          <div class="col-xl-7 col-lg-8 col-md-9 bg-white wow fadeIn">
-            <div class="p-4">
-              <h1 class="pt-2">Global Progress</h1>
-              <h6 class="wow fadeIn text-uppercase small text-bold wide-space">Highlight the new features</h6>
-              <p class="lead pt-2 pr-2">
-                This is a working responsive template and theme that demonstrates some of the
-                <a href="#" class="link">new features</a>
-                to explore.
-              </p>
-              <hr />
-              <a href="#one" class="btn btn-primary btn-xl page-scroll mb-2">Get Started</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> -->
     <!-- navbar -->
     <nav id="topNav" class="navbar navbar-default mb-3 navbar-expand-lg fixed-top" data-toggle="affix">
       <!-- this toggler only displays on offcanvas layout -->
@@ -95,117 +60,6 @@
             <a class="nav-link page-scroll" data-target="#blog" href="/eventusers">Your Events</a>
           </li>
         </ul>
-        <!-- <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item dropdown dropdown-hover megamenu">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-              Your Account
-              <span class="caret"></span>
-            </a> -->
-        <!-- <div class="dropdown-menu dropdown-menu-right pt-1 pb-2">
-              <div class="row mx-1">
-                <div class="col-12">
-                  <span class="close d-sm-none" data-toggle="dropdown">&#xD7;</span>
-                </div>
-                <ul class="col-6 list-unstyled small" role="menu">
-                  <li class="text-uppercase text-muted text-wide pt-2 pb-1">Pages</li>
-                  <li><a class="link" href="about.html">About</a></li>
-                  <li><a class="link" href="app/index.html">Angular App</a></li>
-                  <li><a class="link" href="blog.html">Blog / Articles</a></li>
-                  <li><a class="link" href="blog-detail.html">Blog Post</a></li>
-                  <li><a class="link" href="contact.html">Contact / Map</a></li>
-                  <li><a class="link" href="clients.html">Clients / Testimonial</a></li>
-                  <li><a class="link" href="demos.html">Demos</a></li>
-                  <li><a class="link" href="error-404.html">Error 404</a></li>
-                  <li><a class="link" href="faq.html">FAQ&apos;s</a></li>
-                  <li><a class="link" href="features.html">Features</a></li>
-                  <li><a class="link" href="login.html">Login / Register</a></li>
-                  <li><a class="link" href="legal.html">Privacy Policy</a></li>
-                  <li><a class="link" href="pricing.html">Pricing</a></li>
-                  <li><a class="link" href="products.html">Products</a></li>
-                  <li><a class="link" href="product-detail.html">Product Detail</a></li>
-                  <li><a class="link" href="results.html">Search Results</a></li>
-                  <li><a class="link" href="cart.html">Shopping Cart</a></li>
-                  <li><a class="link" href="legal.html">Terms &amp; Conditions</a></li>
-                  <li><a class="link" href="user-profile.html">User Profile</a></li>
-                </ul>
-                <ul class="col-6 list-unstyled small text-right" role="menu">
-                  <li class="text-uppercase text-muted text-wide pt-2 pb-1">Specialized</li>
-                  <li><a class="link" href="dashboard.html">Dashboard</a></li>
-                  <li><a class="link" href="invoice.html">Invoice</a></li>
-                  <li><a class="link" href="pg-medical.html">Medical / Dental</a></li>
-                  <li><a class="link" href="portfolio.html">Portfolio</a></li>
-                  <li><a class="link" href="pg-restaurant.html">Restaurant Menu</a></li>
-                  <li class="text-uppercase text-muted text-wide pt-3 pb-1">Layouts</li>
-                  <li><a class="link" href="index.html">Single page</a></li>
-                  <li><a class="link" href="layout-video.html">Video background</a></li>
-                  <li><a class="link" href="layout-image.html">Photo background</a></li>
-                  <li><a class="link" href="layout-slider.html">Full-screen slider</a></li>
-                  <li><a class="link" href="layout-2-col.html">2-column</a></li>
-                  <li><a class="link" href="layout-3-col.html">3-column</a></li>
-                  <li><a class="link" href="layout-full.html">Full width</a></li>
-                  <li><a class="link" href="layout-sidebar.html">Sidebar nav</a></li>
-                  <li><a class="link" href="layout-offcanvas.html">Off-canvas nav</a></li>
-                  <li><a class="link" href="layout-grid.html">Grid / Gallery</a></li>
-                  <li><a class="link" href="layout-masonry.html">Masonry</a></li>
-                </ul>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item dropdown dropdown-hover megamenu">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-              Elements
-              <span class="caret"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right pt-1 pb-2">
-              <div class="row mx-1">
-                <div class="col-12">
-                  <span class="close d-sm-none" data-toggle="dropdown">&#xD7;</span>
-                </div>
-                <ul class="col-md-6 col-6 list-unstyled small" role="menu">
-                  <li class="text-uppercase text-wide pt-2 pb-1">
-                    <a class="link text-muted" href="elements.html">Elements</a>
-                  </li>
-                  <li><a class="link" href="elements.html#accordions">Accordion &amp; Collapsible</a></li>
-                  <li><a class="link" href="elements.html#alerts">Alerts / Notifications</a></li>
-                  <li><a class="link" href="elements.html#badges">Badges &amp; Tags</a></li>
-                  <li><a class="link" href="elements.html#buttons">Buttons &amp; Colors</a></li>
-                  <li><a class="link" href="elements.html#carousels">Carousel / Sliders</a></li>
-                  <li><a class="link" href="elements.html#comments">Comments</a></li>
-                  <li><a class="link" href="layout-grid.html">Gallery</a></li>
-                  <li><a class="link" href="elements.html#jumbotron">Jumbotron</a></li>
-                  <li><a class="link" href="elements.html#lists">Lists</a></li>
-                  <li><a class="link" href="layout-masonry.html">Masonry</a></li>
-                  <li><a class="link" href="elements.html#modals">Modal &amp; Overlay</a></li>
-                  <li><a class="link" href="elements.html#progress">Progress</a></li>
-                  <li><a class="link" href="elements.html#tables">Tables</a></li>
-                  <li><a class="link" href="elements.html#tabs">Tabs</a></li>
-                  <li><a class="link" href="elements.html#imageGrids">Thumbnails &amp; Images</a></li>
-                </ul>
-                <ul class="col-md-6 col-6 list-unstyled small text-right" role="menu">
-                  <li class="text-uppercase text-wide pt-2 pb-1">
-                    <a class="link text-muted" href="cards.html">Cards</a>
-                  </li>
-                  <li><a class="link" href="cards.html#card_feature">Image card</a></li>
-                  <li><a class="link" href="cards.html#card_list">List card</a></li>
-                  <li><a class="link" href="cards.html#card_contacts">Contacts card</a></li>
-                  <li><a class="link" href="cards.html#card_thumbnails">Thumbnails card</a></li>
-                  <li><a class="link" href="cards.html#card_product">Product card</a></li>
-                  <li><a class="link" href="cards.html#card_profile">Profile card</a></li>
-                  <li><a class="link" href="cards.html#card_stats">Stats card</a></li>
-                  <li class="text-uppercase text-wide pt-3 pb-1">
-                    <a class="link text-muted" href="elements.html#forms">Forms</a>
-                  </li>
-                  <li><a class="link" href="elements.html#formLogin">Login form</a></li>
-                  <li><a class="link" href="elements.html#formRegister">Sign-up form</a></li>
-                  <li><a class="link" href="elements.html#formChangePassword">Password change form</a></li>
-                  <li><a class="link" href="elements.html#formResetPassword">Password reset form</a></li>
-                  <li><a class="link" href="elements.html#formUserEdit">User info form</a></li>
-                  <li><a class="link" href="elements.html#formContact">Contact form</a></li>
-                  <li><a class="link" href="elements.html#formPayment">Payment form</a></li>
-                </ul>
-              </div>
-            </div> -->
-        <!-- </li> -->
         <li class="nav-item">
           <a class="link" title="Signup for VolunTreery" href="/signup">
             Signup
