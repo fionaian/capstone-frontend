@@ -85,17 +85,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <p class="display-2 mb-2">Okay, Boss.</p>
+            <p class="display-2 mb-2">Collab w/ us!</p>
           </div>
         </div>
         <div class="row">
           <div class="col-6 col-md-3">
             <h6 class="text-uppercase">Information</h6>
             <ul class="list-unstyled">
-              <li><a href="products.html">Products</a></li>
+              <!-- <li><a href="products.html">Affiliates</a></li> -->
               <li><a href="faq.html">FAQ&apos;s</a></li>
-              <li><a href="portfolio.html">Gallery</a></li>
-              <li><a href="clients.html">Clients</a></li>
+              <li><a href="portfolio.html">Photos from Events</a></li>
+              <li><a href="clients.html">Affiliates</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-3 column">
@@ -158,8 +158,8 @@
         <br />
         <hr class="light" />
         <div class="text-center text-normal">
-          <a href="http://themes.guide/">
-            Made by Themes.guide in Little Rhody
+          <a href="https://github.com/fionaian/capstone-frontend">
+            Fiona Ian's Actualize Coding Bootcamp Capstone, v. 1.0
             <i class="ion-location"></i>
           </a>
         </div>
