@@ -6,13 +6,13 @@
           <div class="col-xl-4 col-lg-4 col-md-5 py-3">
             <h1 class="display-2 pt-3 mb-5">
               <a href="#" class="link">
-                <span class="text-typing line-1 wow fadeIn" data-wow-delay="1.2s">Hey,</span>
-                <span class="text-typing line-2 wow fadeIn" data-wow-delay="1.4s">Look At</span>
-                <span class="text-typing line-3 wow fadeIn text-highlight" data-wow-delay="1.6s">My Design.</span>
+                <span class="text-typing line-1 wow fadeIn text-highlight" data-wow-delay="1.2s">VolunTreery:</span>
+                <span class="text-typing line-2 wow fadeIn" data-wow-delay="1.4s">Chicago</span>
+                <span class="text-typing line-3 wow fadeIn text-highlight" data-wow-delay="1.6s">Cares.</span>
               </a>
             </h1>
           </div>
-          <div class="col-xl-4 ml-xl-auto col-lg-4 ml-lg-auto col-md-5 ml-md-auto py-3">
+          <!-- <div class="col-xl-4 ml-xl-auto col-lg-4 ml-lg-auto col-md-5 ml-md-auto py-3">
             <blockquote class="blockquote">
               <h3 class="text-right pt-3">
                 Wow, yeaahh man
@@ -26,7 +26,7 @@
               <br />
               <h6 class="text-right"><a href="#" class="text-muted link small">We made it easy</a></h6>
             </blockquote>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -80,31 +80,28 @@
       <div class="collapse navbar-collapse border-0" id="collapsingNavbar">
         <ul class="nav navbar-nav">
           <li class="nav-item">
+            <a class="nav-link page-scroll" data-target="#five" href="/about">About</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link page-scroll" data-target="#one" href="/causes">Causes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" data-target="#two" href="index.html#two">Flexbox</a>
+            <a class="nav-link page-scroll" data-target="#two" href="/npos">NPOs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" data-target="#three" href="index.html#three">Content</a>
+            <a class="nav-link page-scroll" data-target="#three" href="/events">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" data-target="#blog" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" data-target="#five" href="index.html#five">Masonry</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" data-target="#last" href="index.html#last">More</a>
+            <a class="nav-link page-scroll" data-target="#blog" href="/eventusers">Your Events</a>
           </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto">
+        <!-- <ul class="nav navbar-nav ml-auto">
           <li class="nav-item dropdown dropdown-hover megamenu">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-              Pages &amp; Layouts
+              Your Account
               <span class="caret"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right pt-1 pb-2">
+            </a> -->
+        <!-- <div class="dropdown-menu dropdown-menu-right pt-1 pb-2">
               <div class="row mx-1">
                 <div class="col-12">
                   <span class="close d-sm-none" data-toggle="dropdown">&#xD7;</span>
@@ -207,14 +204,24 @@
                   <li><a class="link" href="elements.html#formPayment">Payment form</a></li>
                 </ul>
               </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" data-toggle="modal" title="A Bootstrap theme" href="#aboutModal">
-              About
-            </a>
-          </li>
-        </ul>
+            </div> -->
+        <!-- </li> -->
+        <li class="nav-item">
+          <a class="link" title="Signup for VolunTreery" href="/signup">
+            Signup
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="link" title="Login to VolunTreery" href="/login">
+            Login
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="link" title="Logout of VolunTreery" href="/logout">
+            Logout
+          </a>
+        </li>
+        <!-- </ul> -->
       </div>
     </nav>
     <!-- /navbar -->

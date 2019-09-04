@@ -6,7 +6,7 @@
       <h4>Cause: {{ npo.cause.title }}</h4>
       <router-link v-bind:to="`/events/${event.id}`">Additional Information about {{ event.name }}</router-link>
       <br />
-      <twitter :key="componentKey" style="width: 50%; height: 50%">
+      <twitter :key="componentKey" style="width: 50%">
         <a class="twitter-timeline" :href="twitterUrl">Tweets by {{ npo.name }}</a>
       </twitter>
     </div>
