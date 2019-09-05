@@ -1,5 +1,5 @@
 <template>
-  <section id="aboutheader" class="bg-image2">
+  <section id="aboutheader" class="bg-image-jungle bg-fixed bg-cover">
     <div class="container pt-2">
       <div class="row">
         <div class="col-xl-7 col-lg-8 col-md-9 bg-white p-4 mx-1 wow fadeInUp hide">

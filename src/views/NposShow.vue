@@ -10,7 +10,7 @@
         <a class="twitter-timeline" :href="twitterUrl">Tweets by {{ npo.name }}</a>
       </twitter>
     </div>
-    <router-link to="/npos">Back to all npos</router-link>
+    <router-link to="/npos"><i>Back to all npos</i></router-link>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
     </ul>
     <button v-on:click="createEventUser(event)">Sign Up for Event</button>
     <br />
-    <router-link to="/events">Back to all events</router-link>
+    <router-link to="/events"><i>Back to all events</i></router-link>
   </div>
 </template>
 
