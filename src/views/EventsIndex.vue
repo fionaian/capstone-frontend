@@ -185,7 +185,7 @@
                     </a>
                   </div>
                   <div class="card-body pt-2 pl-1">
-                    <h6 class="small text-wide text-truncate pb-1">IL Coalition for Immigrants and Refugee Rights</h6>
+                    <h6 class="small text-wide text-truncate pb-1">ICIRR</h6>
                     <h2>
                       <a href="/events/9">Citizenship Workshop</a>
                     </h2>
