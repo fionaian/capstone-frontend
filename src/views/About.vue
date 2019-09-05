@@ -12,6 +12,7 @@
               branching out to explore non-profit volunteering opportunities in their area.
             </p>
           </div>
+          <router-link to="/causes"><i>Go to Causes</i></router-link>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-3"></div>
       </div>
