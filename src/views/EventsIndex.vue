@@ -193,14 +193,37 @@
                 </div>
               </div>
             </div>
+
+            <div class="carousel-item flex-column flex-sm-row align-items-stretch">
+              <div class="col-md-4">
+                <div class="card card-default h-100">
+                  <div class="card-img-top card-img-top-200 card-zoom">
+                    <a href="/events/10">
+                      <img
+                        class="img-fluid mx-auto d-block"
+                        src="https://youngchicagoauthors.org/images/content/galleries/check-the-method/02.jpg"
+                        alt="Carousel 4"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body pt-2 pl-1">
+                    <h6 class="small text-wide text-truncate pb-1">Young Chicago Author</h6>
+                    <h2>
+                      <a href="/events/10">Sound and Stage Crew</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="col-12">
             <div class="row">
               <div class="col-12 text-md-right text-center lead">
-                <a class="prev pr-3" data-target="#postsCarousel" data-slide="prev" href="#" title="Newer">
+                <a class="prev pr-4" data-target="#postsCarousel" data-slide="prev" href="#" title="Newer">
                   <i class="fa fa-chevron-left ion-ios-arrow-left"></i>
                 </a>
-                <a class="next pl-3" data-target="#postsCarousel" data-slide="next" href="#" title="Older">
+                <a class="next pl-4" data-target="#postsCarousel" data-slide="next" href="#" title="Older">
                   <i class="fa fa-chevron-right ion-ios-arrow-right"></i>
                 </a>
               </div>
