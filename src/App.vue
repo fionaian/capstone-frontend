@@ -59,27 +59,30 @@
           <li class="nav-item">
             <a class="nav-link page-scroll" data-target="#blog" href="/eventusers">Your Events</a>
           </li>
+          <li class="nav-item" v-if="!jwt">
+            <a class="nav-link page-scroll" title="Signup for VolunTreery" href="/signup">
+              Signup
+            </a>
+          </li>
+          <li class="nav-item" v-if="!jwt">
+            <a class="nav-link page-scroll" title="Login to VolunTreery" href="/login">
+              Login
+            </a>
+          </li>
+          <li class="nav-item" v-if="jwt">
+            <a class="nav-link page-scroll" title="Logout of VolunTreery" href="/logout">
+              Logout
+            </a>
+          </li>
+          <li class="nav-item" v-if="jwt">
+            <a class="nav-link page-scroll" href="javascript:void(0)">Welcome {{ username }}!</a>
+          </li>
         </ul>
-        <li class="nav-item">
-          <a class="link" title="Signup for VolunTreery" href="/signup">
-            Signup
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="link" title="Login to VolunTreery" href="/login">
-            Login
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="link" title="Logout of VolunTreery" href="/logout">
-            Logout
-          </a>
-        </li>
         <!-- </ul> -->
       </div>
     </nav>
     <!-- /navbar -->
-    <router-view />
+    <router-view v-on:changeJwt="setJwt()" />
 
     <footer id="footer" class="pt-5">
       <div class="container">
@@ -167,5 +170,25 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      jwt: null,
+      username: ""
+    };
+  },
+  created: function() {
+    this.setJwt();
+  },
+  methods: {
+    setJwt: function() {
+      this.jwt = localStorage.getItem("jwt");
+      this.username = localStorage.getItem("username");
+    }
+  }
+};
+</script>
 
 <style></style>

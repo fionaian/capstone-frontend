@@ -26,8 +26,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      email: "",
-      password: "",
+      email: "leslie.knope@email.com",
+      password: "password",
       errors: []
     };
   },
@@ -42,6 +42,8 @@ export default {
         .then(response => {
           axios.defaults.headers.common["Authorization"] = "Bearer " + response.data.jwt;
           localStorage.setItem("jwt", response.data.jwt);
+          localStorage.setItem("username", response.data.name);
+          this.$emit("changeJwt");
           this.$router.push("/");
         })
         .catch(error => {
