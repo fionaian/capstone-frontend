@@ -137,10 +137,10 @@
           <div class="col-12">
             <div class="row">
               <div class="col-12 text-md-right text-center lead">
-                <a class="prev pr-2" data-target="#postsCarousel" data-slide="prev" href="#" title="Newer">
+                <a class="prev pr-3" data-target="#postsCarousel" data-slide="prev" href="#" title="Newer">
                   <i class="fa fa-chevron-left ion-ios-arrow-left"></i>
                 </a>
-                <a class="next pl-2" data-target="#postsCarousel" data-slide="next" href="#" title="Older">
+                <a class="next pl-3" data-target="#postsCarousel" data-slide="next" href="#" title="Older">
                   <i class="fa fa-chevron-right ion-ios-arrow-right"></i>
                 </a>
               </div>
@@ -164,7 +164,6 @@
 import axios from "axios";
 import FullCalendar from "@fullcalendar/vue";
 import dayGridPlugin from "@fullcalendar/daygrid";
-
 export default {
   components: {
     FullCalendar // make the <FullCalendar> tag available
