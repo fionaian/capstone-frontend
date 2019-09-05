@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>All Causes</h1>
+    <center><h1>Social Causes</h1></center>
 
     <section class="bg-alt">
       <div class="container py-5">
