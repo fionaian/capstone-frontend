@@ -17,6 +17,8 @@
 
           <div class="bg-alt wow slideInUp" data-wow-delay="1.2s">
             <div class="container py-5">
+              <h1 class="">Testimonials</h1>
+
               <!-- alternating left right testimonials list -->
               <div class="row my-5">
                 <div class="col-12">
