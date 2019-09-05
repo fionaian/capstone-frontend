@@ -133,6 +133,66 @@
                 </div>
               </div>
             </div>
+
+            <div class="carousel-item flex-column flex-sm-row align-items-stretch">
+              <div class="col-md-4">
+                <div class="card card-default h-100">
+                  <div class="card-img-top card-img-top-200 card-zoom">
+                    <a href="/events/7">
+                      <img
+                        class="img-fluid mx-auto d-block"
+                        src="http://www.pawschicago.org/fileadmin/_processed_/csm_Adoption_Center_Lobby_2_c052865335.jpg"
+                        alt="Carousel 4"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body pt-2 pl-1">
+                    <h6 class="small text-wide text-truncate pb-1">PAWS Chicago</h6>
+                    <h2>
+                      <a href="/events/7">Foster Animal Care Workshop</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-default h-100">
+                  <div class="card-img-top card-img-top-200 card-zoom">
+                    <a href="/events/8">
+                      <img
+                        class="img-fluid mx-auto d-block"
+                        src="https://images.squarespace-cdn.com/content/v1/554ba89de4b0ff0eff6bebf3/1556566488905-IW2YCJ0KW47QKJ6S2NRX/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/Website.png?format=2500w"
+                        alt="Carousel 5"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body pt-2 pl-1">
+                    <h6 class="small text-wide text-truncate pb-1">Chicago HOPES for Kids</h6>
+                    <h2>
+                      <a href="/events/8">Litearcy Skills Workshop</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-default h-100">
+                  <div class="card-img-top card-img-top-200 card-zoom">
+                    <a href="/events/9">
+                      <img
+                        class="img-fluid mx-auto d-block"
+                        src="https://secure2.convio.net/icirr/images/content/pagebuilder/picforCM.jpg"
+                        alt="Carousel 6"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body pt-2 pl-1">
+                    <h6 class="small text-wide text-truncate pb-1">IL Coalition for Immigrants and Refugee Rights</h6>
+                    <h2>
+                      <a href="/events/9">Citizenship Workshop</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-12">
             <div class="row">
