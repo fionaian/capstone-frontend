@@ -6,13 +6,15 @@
       <p>Extra info</p>
     </div>
     <div v-if="isLoggedIn">
+      <center><h1>Your Signed Up Events</h1></center>
       <div v-for="event_user in event_users">
-        <h1>Your Signed Up Events</h1>
-        <h2>{{ event_user.event.name }}</h2>
-        <h3>{{ event_user.event.npo_id }}</h3>
-        <h3>{{ event_user.event.start_datetime }}</h3>
-        <h3>{{ event_user.event.end_datetime }}</h3>
-        <button v-on:click="destroyEvent(event_user)">Remove Event</button>
+        <center>
+          <h2>{{ event_user.event.name }}</h2>
+          <h3>{{ event_user.event.npo_id }}</h3>
+          <h3>{{ event_user.event.start_datetime }}</h3>
+          <h3>{{ event_user.event.end_datetime }}</h3>
+          <button v-on:click="destroyEvent(event_user)">Remove Event</button>
+        </center>
       </div>
       <!-- <router-link v-bind:to="`/events/${event.id}`">More details about event</router-link> -->
     </div>
@@ -38,7 +40,8 @@ export default {
   methods: {
     destroyEvent: function(event_user) {
       axios.delete("/api/event_users/" + event_user.id).then(response => {
-        this.$router.push("/event_users");
+        console.log("You're no longer attending this event!", response.data);
+        this.$router.push("/events");
       });
     }
   }
