@@ -49,15 +49,6 @@
       </a>
     </div>
     <!-- /carousel -->
-    <div v-if="!isLoggedIn">
-      <p>Extra info</p>
-    </div>
-    <div v-if="isLoggedIn">
-      <div v-for="event_user in event_users">
-        <p>Your events</p>
-        <p>{{ event_user.event.name }}</p>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -68,15 +59,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      event_users: [],
-      isLoggedIn: true
+      event_users: []
     };
-  },
-  created: function() {
-    axios.get("/api/event_users").then(response => {
-      this.event_users = response.data;
-      console.log("data: ", this.event_users);
-    });
   },
   methods: {}
 };

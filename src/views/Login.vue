@@ -17,6 +17,7 @@
         <input type="submit" class="btn btn-primary" value="Submit" />
       </form>
     </div>
+    <br />
   </div>
 </template>
 
@@ -44,7 +45,7 @@ export default {
           localStorage.setItem("jwt", response.data.jwt);
           localStorage.setItem("username", response.data.name);
           this.$emit("changeJwt");
-          this.$router.push("/");
+          this.$router.push("/eventusers");
         })
         .catch(error => {
           this.errors = ["Invalid email or password."];

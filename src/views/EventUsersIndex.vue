@@ -2,15 +2,21 @@
 
 <template>
   <div class="container">
-    <h1>Your Signed Up Events</h1>
-    <div v-for="event_user in event_users">
-      <h2>{{ event_user.event.name }}</h2>
-      <h3>{{ event_user.event.npo_id }}</h3>
-      <h3>{{ event_user.event.start_datetime }}</h3>
-      <h3>{{ event_user.event.end_datetime }}</h3>
-      <button v-on:click="destroyEvent(event_user)">Remove Event</button>
+    <div v-if="!isLoggedIn">
+      <p>Extra info</p>
+    </div>
+    <div v-if="isLoggedIn">
+      <div v-for="event_user in event_users">
+        <h1>Your Signed Up Events</h1>
+        <h2>{{ event_user.event.name }}</h2>
+        <h3>{{ event_user.event.npo_id }}</h3>
+        <h3>{{ event_user.event.start_datetime }}</h3>
+        <h3>{{ event_user.event.end_datetime }}</h3>
+        <button v-on:click="destroyEvent(event_user)">Remove Event</button>
+      </div>
       <!-- <router-link v-bind:to="`/events/${event.id}`">More details about event</router-link> -->
     </div>
+    <br />
   </div>
 </template>
 
@@ -20,7 +26,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      event_users: []
+      event_users: [],
+      isLoggedIn: true
     };
   },
   created: function() {
@@ -37,4 +44,3 @@ export default {
   }
 };
 </script>
-
