@@ -70,33 +70,37 @@
           <div class="card card-default mb-2">
             <div class="card-body pt-2 pb-2 bg-alt">
               <p class="text-secondary">
-                Duis pharetra codeply varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt codeply
-                nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit
-                amet augue.
+                These are the nonprofit organizations that are collaborating with us to showcase their mission and
+                volunteering opportunites. Come join this dynamic community of do-gooders!
               </p>
             </div>
-          </div>
-          <div class="card card-default mb-2">
-            <div class="card-img-top wow fadeIn">
-              <a href="/npos/5">
-                <img
-                  src="https://chicagoplays.com/wp-content/uploads/2018/12/collaboraction.jpg"
-                  class="mx-auto img-fluid d-block"
-                />
-              </a>
+            <div class="card card-default mb-2">
+              <div class="card-img-top wow fadeIn">
+                <a href="/npos/5">
+                  <img
+                    src="https://chicagoplays.com/wp-content/uploads/2018/12/collaboraction.jpg"
+                    class="mx-auto img-fluid d-block"
+                  />
+                </a>
+              </div>
+              <div class="card-body pl-1 py-2">
+                <h6 class="text-wide small">Performing Arts</h6>
+                <h2 class="card-title"><a href="/npos/5">Collaboraction</a></h2>
+              </div>
             </div>
-            <div class="card-body pl-1 py-2">
-              <h6 class="text-wide small">Performing Arts</h6>
-              <h2 class="card-title"><a href="/npos/5">Collaboraction</a></h2>
-            </div>
-          </div>
-          <div class="card card-default mb-2">
-            <div class="card-body pt-2 pb-2 bg-alt">
-              <p class="text-secondary">
-                Duis pharetra codeply varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt codeply
-                nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit
-                amet augue.
-              </p>
+            <div class="card card-default mb-2">
+              <div class="card-img-top wow fadeIn">
+                <a href="/npos/10">
+                  <img
+                    src="https://youngchicagoauthors.org/images/template/young-chicago-authors-logo.png"
+                    class="mx-auto img-fluid d-block"
+                  />
+                </a>
+              </div>
+              <div class="card-body pt-2 pb-2 pl-1">
+                <h6 class="small text-wide">Media</h6>
+                <h2 class="card-title"><a href="/npos/10">Young Chicago Authors</a></h2>
+              </div>
             </div>
           </div>
           <div class="card card-default mb-2">
@@ -139,14 +143,6 @@
             <div class="card-body pt-2 pb-2 pl-1">
               <h6 class="small text-wide">Education</h6>
               <h2 class="card-title"><a href="/npos/8">Chicago HOPES for Kids</a></h2>
-            </div>
-          </div>
-          <div class="card card-default mb-2">
-            <div class="card-body pt-2 pb-2 bg-alt">
-              <p class="text-secondary">
-                Wolf-moon hashtag church-key Odd Future. Austin messenger bag normcore, Helvetica Williamsburg sartorial
-                tote bag distillery Portland before they sold out gastropub taxidermy Vice.
-              </p>
             </div>
           </div>
           <div class="card card-default mb-2">
