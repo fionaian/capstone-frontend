@@ -26,7 +26,7 @@
         <div class="carousel-item">
           <img
             class="third-slide mx-auto d-block img-fluid"
-            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_56523347.jpg?crop=0,432,7360,4048&wid=4000&hei=2200&scl=1.84"
+            src="https://cdn.news.uchicago.edu/sites/default/files/styles/full_width/public/images/2018-05/Berman1380.jpg?itok=tMHiscyL"
             alt="slide"
           />
           <div class="carousel-caption pb-3">

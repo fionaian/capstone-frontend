@@ -1,8 +1,12 @@
 <template>
   <div class="container">
-    <h2>{{ cause.title }}</h2>
+    <h2>Social Cause: Education</h2>
+    <h3>Affiliated NPOs</h3>
+    <br />
+    <h2>Open Books Chicago</h2>
+    <h2>Chicago HOPES for Kids</h2>
     <div v-for="npo in cause.npos">
-      <p>NPO: {{ npo.name }}</p>
+      <p>Affiliated NPOs</p>
       <router-link v-bind:to="`/events/${event.id}`">{{ npo.name }}</router-link>
     </div>
     <router-link to="/causes">Back to all causes</router-link>
@@ -19,7 +23,7 @@ export default {
     };
   },
   created: function() {
-    axios.get("/api/causes/" + this.$route.params.id).then(response => {
+    axios.get("/api/causes/1" + this.$route.params.id).then(response => {
       this.cause = response.data;
     });
     axios.get("/api/events/" + this.$route.params.id).then(response => {
